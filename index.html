@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <!-- menu icon -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Tolls</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<!-- home section  -->
+ <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, its me</h3>
+        <h1>Karan Maggo</h1>
+        <h3>And I'm a <span id="typed"></span></h3>
+        <p>I am a Frontend Developer <span> with a Passion of Creating interactive and responsive websites.</span></p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/karan-maggo-4436b0248/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/KaranMaggo"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/karan.maggo/"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+        <a href="Karan Maggo Resume web dev.pdf" download class="btn">Download CV</a>
+    </div>
+
+    <div class="home-image">
+        <img src="home-logo-f.png" alt=""> 
+
+    </div>
+ </section>
+ <section class="about" id="about">
+    <div class="about-img">
+        <img src="charcter.png" alt="about-img" >
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>Hi, I'm Karan, a Frontend Developer passionate about building seamless and visually appealing web experiences. Skilled in HTML, CSS, JavaScript. I focus on creating responsive, efficient, and user-friendly interfaces.
+I love turning ideas into reality through clean code and thoughtful design. Let's collaborate to bring your vision to life!</p>
+    <a href="#" class="btn">Read more</a>
+    </div>
+ </section>
+
+<section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span> </h2>
+    <div class="service-container">
+    <div class="service-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+        <p>I provide reliable and modern web development services, ensuring seamless, responsive, and future-ready solutions tailored to your needs.</p>
+    </div>
+    <div class="service-box">
+        <i class='bx bxl-wordpress'></i>
+        <h3>Wordpress Development</h3>
+        <p>I offer reliable and modern WordPress website development, delivering responsive, customizable, and user-friendly solutions tailored to your goals.</p>
+    </div>
+</div>
+</section>
+
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Tools</span></h2>
+    <div class="skill-container">
+    <div class="skills-box">
+        <svg id="html" xmlns="http://www.w3.org/2000/svg" aria-label="HTML5" viewBox="0 0 512 512" id="html">
+            <path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52"></path>
+            <path fill="#ef652a" d="M256 472l149-41 35-394H256"></path>
+            <path fill="#ebebeb" d="M256 208h-75l-5-58h80V94H114l15 171h127zm-1 147l-63-17-4-45h-56l7 89 116 32z"></path>
+            <path fill="#fff" d="M255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"></path>
+          </svg>
+        <h3>HTML</h3>
+    </div>
+
+    <div class="skills-box">
+        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16" id="css">
+            <path fill="#2196F3" d="m1 0 1.275 14.4L8 16l5.723-1.599L15 0z"></path>
+            <path fill="#FAFAFA" d="m12.274 4.709-.161 1.809-.486 5.423L8 12.944l-.003.001-3.625-1.004-.253-2.836h1.776l.132 1.471 1.971.532.001-.001 1.974-.532.269-2.451-6.208.017-.176-1.676 6.533-.077.132-1.794-6.84.019-.115-1.669h8.864z"></path>
+          </svg>
+        <h3>CSS</h3>
+    </div>
+
+    <div class="skills-box">
+        <svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" viewBox="0 0 512 512" id="javascript">
+            <rect width="512" height="512" fill="#f7df1e" rx="15%"></rect>
+            <path d="m324,370c10,17 24,29 47,29 20,0 33,-10 33,-24 0,-16 -13,-22 -35,-32l-12,-5c-35,-15 -58,-33 -58,-72 0,-36 27,-64 70,-64 31,0 53,11 68,39l-37,24c-8,-15 -17,-21 -31,-21 -14,0 -23,9 -23,21 0,14 9,20 30,29l12,5c41,18 64,35 64,76 0,43 -34,67 -80,67 -45,0 -74,-21 -88,-49zm-170,4c8,13 14,25 31,25 16,0 26,-6 26,-30V203h48v164c0,50 -29,72 -72,72 -39,0 -61,-20 -72,-44z"></path>
+          </svg>
+          
+        <h3>JAVASCRIPT</h3>
+    </div>
+
+
+    <div class="skills-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="bootstrap">
+            <path fill="#543B79" d="M22 0H2a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-4.187 16.853v.002c-.2.482-.517.907-.923 1.234-.42.34-.952.62-1.607.82-.654.203-1.432.305-2.333.305H6.518v-14h6.802c1.258 0 2.266.283 3.02.86.76.58 1.138 1.444 1.138 2.61 0 .705-.172 1.31-.518 1.81-.344.497-.84.886-1.48 1.156v.046c.854.18 1.515.585 1.95 1.215.435.63.658 1.426.658 2.387 0 .538-.104 1.05-.3 1.528l.025.027z"></path>
+            <path fill="#543B79" d="M15.037 13.405c-.41-.375-.986-.558-1.73-.558H8.985v4.368h4.334c.74 0 1.32-.192 1.73-.58.41-.385.62-.934.62-1.64-.007-.69-.21-1.224-.62-1.59h-.012zm-.604-2.823h.004c.396-.336.59-.817.59-1.444 0-.704-.175-1.204-.53-1.49-.352-.285-.86-.433-1.528-.433h-4v3.863h4c.583 0 1.08-.17 1.464-.496z"></path>
+          </svg>
+        <h3>BOOTSTRAP</h3>
+    </div>
+
+
+    <div class="skills-box">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 73.29"><defs><style>.cls-1{fill:#06b6d4;fill-rule:evenodd;}</style></defs><title>tailwind-css</title><path class="cls-1" d="M61.44,0Q36.87,0,30.72,24.43q9.22-12.21,21.5-9.16c4.68,1.16,8,4.53,11.72,8.26,6,6.08,13,13.11,28.22,13.11q24.57,0,30.72-24.43-9.21,12.22-21.5,9.16c-4.68-1.16-8-4.53-11.72-8.26C83.64,7,76.67,0,61.44,0ZM30.72,36.64Q6.15,36.64,0,61.07q9.23-12.21,21.5-9.16c4.68,1.16,8,4.53,11.72,8.27,6,6.07,13,13.11,28.22,13.11q24.57,0,30.72-24.43Q82.95,61.07,70.66,58c-4.68-1.16-8-4.53-11.72-8.26-6-6.08-13-13.12-28.22-13.12Z"/></svg>
+        <h3>TAILWIND CSS</h3>
+    </div>
+
+    <div class="skills-box">
+        <svg xmlns="http://www.w3.org/2000/svg" aria-label="WordPress" viewBox="0 0 512 512" id="wordpress">
+            <rect width="512" height="512" fill="#05a8da" rx="15%"></rect>
+            <circle cx="256" cy="256" r="182" fill="none" stroke="#fff" stroke-width="20"></circle>
+            <path fill="#fff" d="m315 424 28-15 54-156c10-25 13-45 13-62 0-32-13-60-36-63-21-2-33 19-32 31 2 29 31 45 31 85 0 28-18 73-31 117l-62-187 20-1c10 0 9-15-1-14-31 3-60 2-92 0-10-1-10 14-1 14l18 1 27 74-38 114-63-188 20-1c9 0 8-15-1-14-29 2-57 4-64-1l-8 24 84 233 25 14 54-158"></path>
+          </svg>
+        <h3>WORDPRESS</h3>
+    </div>
+</div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span> Projects</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Project-thumb1.jpg" alt="project1">
+            <div class="portfolio-layer">
+                <h4>Animated Website</h4>
+                <p>I created an animated website using HTML, CSS, JavaScript, and the GSAP library for smooth, dynamic effects and interactions.</p>
+            <a href="https://karanmaggo.github.io/SidGolfClub-website1/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Project thumb2.jpg" alt="project2">
+            <div class="portfolio-layer">
+                <h4>Wordpress Website</h4>
+                <p>
+I developed an animated WordPress site using custom code and plugins, integrating dynamic effects with smooth interactions.</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="porject-thumb3.jpg" alt="project3">
+            <div class="portfolio-layer">
+                <h4>Portfolio Website</h4>
+                <p>I created a responsive and attractive portfolio website using HTML, CSS, and JavaScript to showcase my work effectively.</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact<span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="20" rows="10" placeholder="write a message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by Karan Maggo | All Rights Reserved. </p>
+    </div>
+    <div class="footer-icon-top">
+       <a href="#"><i class='bx bx-up-arrow-circle'></i></a> 
+    </div>
+</footer>
+
+<!-- typed js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
